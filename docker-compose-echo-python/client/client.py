@@ -6,6 +6,7 @@ import time
 HOST = os.getenv("ECHO_HOST", "echo-server")
 PORT = int(os.getenv("ECHO_PORT", "5000"))
 MESSAGE = os.getenv("ECHO_MESSAGE", "Olá do cliente echo!")
+BUFFER_SIZE = 1024
 
 
 def main() -> None:
@@ -15,7 +16,16 @@ def main() -> None:
             with socket.create_connection((HOST, PORT), timeout=5) as sock:
                 print(f"[echo-client] Conectado em {HOST}:{PORT}")
                 sock.sendall(MESSAGE.encode("utf-8"))
-                response = sock.recv(1024).decode("utf-8")
+                sock.shutdown(socket.SHUT_WR)
+
+                chunks = []
+                while True:
+                    chunk = sock.recv(BUFFER_SIZE)
+                    if not chunk:
+                        break
+                    chunks.append(chunk)
+
+                response = b"".join(chunks).decode("utf-8")
                 print(f"[echo-client] Enviado:  {MESSAGE}")
                 print(f"[echo-client] Recebido: {response}")
 
