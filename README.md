@@ -7,7 +7,17 @@
 - **Objetivo**:
   1. Praticar programação de linhas de execução servidor
   2. Conhecer como linguagens de programação implementam linhas de execução
-- **data de apresentação**: 22/05/2026
+- **data de apresentação**: 29/05/2026
+
+---
+## Guia de apresentação
+Sequência de slides
+1. Linguagem e Grupo
+2. Sumário
+3. Bibliotecas usadas
+4. Comparar comportamento com e sem thread
+5. Dificuldades
+6. Demais observações do grupo
 
 ---
 
