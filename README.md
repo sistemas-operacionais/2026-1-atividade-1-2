@@ -51,5 +51,5 @@ Sequência de slides
 | Java       | <ul><li>João</li><li>Matues Rocha</li><li>Ryan</li></ul>                         | [github](https://github.com/joaohoalmeida/2026-1-atividade-1-2) |
 | Kotlin     | <ul><li>Beatriz</li><li>Bruno</li><li>Camile</li></ul>                           | [github](https://github.com/brunobarretoxy/2026-1-atividade-1-2) |
 | Lua        | <ul><li>Gustavo</li><li>Miguel</li><li>Raquel</li><li>Arthur Fontenele</li></ul> | [github](https://github.com/Raquel-M325/2026-1-atividade-1-2) |
-| Rust       | <ul><li>Ane</li><li>Arthur Mariz</li><li>Jennifer</li></ul>                      | [github](https://github.com/anabs-escolar/atividade-threads) |
-| Typescript | <ul><li>Antonio</li><li>Maikon</li><li>Vinicius</li></ul>                        | [github](https://github.com/mayconalex/2026-1-atividade-1-2) |
+| Rust       | <ul><li>Ana Barbosa</li><li>Arthur Mariz</li><li>Jennifer</li></ul>                      | [github](https://github.com/anabs-escolar/atividade-threads) |
+| Typescript | <ul><li>Antonio</li><li>Maikon</li><li>Lucas Vinícius</li></ul>                        | [github](https://github.com/mayconalex/2026-1-atividade-1-2) |
